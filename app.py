@@ -235,5 +235,4 @@ def get_stored_credentials():
     return None
 
 if __name__ == '__main__':
-    context = ('cert.pem', 'key.pem')  # Paths to your certificate and private key files
-    app.run('127.0.0.1', 5000, debug=True, ssl_context=context)
+    app.run('127.0.0.1', 5000, debug=True, ssl_context=app.config['SSL_CONTEXT'])
