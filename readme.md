@@ -69,7 +69,7 @@ The app integrates Google OAuth2.0 for Gmail API access and includes a CodeMirro
     ```
 - When running in development environment, this will allow you to run the app in HTTPS mode.
 - So before you run, the folder structure should look like the below screenshot:
-    ![screenshots](./screenshots/files.png)
+    <img src="./screenshots/files.png" alt="Folder Structure" width="300"/>
 - The `key.pem` and `cert.pem` files should be in the root directory of the project.
 - The `client_secret.json` file should also be in the root directory of the project.
 - And the `credentials.db` file will be created in the root directory of the project after running the app for the first time.
