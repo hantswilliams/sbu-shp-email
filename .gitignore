@@ -1,0 +1,11 @@
+## Environments
+.env
+.venv
+
+## Secrets 
+client_secret.json
+credentials.db
+
+## SSL Certificates
+cert.pem
+key.pem
